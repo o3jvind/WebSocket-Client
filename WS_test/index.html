@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="js/wsclient.js"></script>
+        <style>
+            table    { border: 2px solid black; }
+            input    { width: 300px; }
+            select   { width: 300px; }
+           
+            #btnConnect    { width: 100px; }
+            #btnDisconnect { width: 100px; }
+           
+        </style>
+    </head>
+    <body>
+        <h1>WebSocket Client</h1>
+        <!-- WebSocket Connection Parameters Table -->
+        <table>
+            <tr>
+                <td>WS Hostname</td>
+                <td><input type="text" id="hostname" value="127.0.0.1"></td>
+            </tr>
+            <tr>
+                <td>WS Port</td>
+                <td><input type="text" id="port" value="4250"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input id="btnConnect"    type="button" value="Connect"    onclick="onConnectClick()">&nbsp;&nbsp;
+                    <input id="btnDisconnect" type="button" value="Disconnect" onclick="onDisconnectClick()" disabled="disabled">
+                </td>
+            </tr>
+        </table><br/>
+       	
+		<button type="button" onclick="loadXMLDoc()">Get Rundown</button>
+		<br/>
+		<br/>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <allowremotetriggering>false</allowremotetriggering>
+    <item>
+        <type>MOVIE</type>
+        <devicename>Local CasparCG</devicename>
+        <label>19 GRACELAND SD</label>
+        <name>19 GRACELAND SD</name>
+        <channel>1</channel>
+        <videolayer>10</videolayer>
+        <delay>0</delay>
+        <duration>0</duration>
+        <allowgpi>false</allowgpi>
+        <allowremotetriggering>true</allowremotetriggering>
+        <remotetriggerid>Graceland</remotetriggerid>
+        <storyid></storyid>
+        <transition>MIX</transition>
+        <transitionDuration>25</transitionDuration>
+        <tween>Linear</tween>
+        <direction>RIGHT</direction>
+        <seek>0</seek>
+        <length>0</length>
+        <loop>false</loop>
+        <freezeonload>false</freezeonload>
+        <triggeronnext>false</triggeronnext>
+        <autoplay>false</autoplay>
+        <color>Transparent</color>
+        <timecode></timecode>
+    </item>
+    <item>
+        <type>MOVIE</type>
+        <devicename>Local CasparCG</devicename>
+        <label>18 AROS-VO</label>
+        <name>18 AROS-VO</name>
+        <channel>1</channel>
+        <videolayer>10</videolayer>
+        <delay>0</delay>
+        <duration>0</duration>
+        <allowgpi>false</allowgpi>
+        <allowremotetriggering>true</allowremotetriggering>
+        <remotetriggerid>Aros</remotetriggerid>
+        <storyid></storyid>
+        <transition>CUT</transition>
+        <transitionDuration>0</transitionDuration>
+        <tween>Linear</tween>
+        <direction>RIGHT</direction>
+        <seek>0</seek>
+        <length>0</length>
+        <loop>false</loop>
+        <freezeonload>false</freezeonload>
+        <triggeronnext>false</triggeronnext>
+        <autoplay>false</autoplay>
+        <color>Transparent</color>
+        <timecode></timecode>
+    </item>
+    <item>
+        <type>MOVIE</type>
+        <devicename>Local CasparCG</devicename>
+        <label>18 SKUESPIL-VO</label>
+        <name>18 SKUESPIL-VO</name>
+        <channel>1</channel>
+        <videolayer>10</videolayer>
+        <delay>0</delay>
+        <duration>0</duration>
+        <allowgpi>false</allowgpi>
+        <allowremotetriggering>true</allowremotetriggering>
+        <remotetriggerid>Skuespil</remotetriggerid>
+        <storyid></storyid>
+        <transition>CUT</transition>
+        <transitionDuration>0</transitionDuration>
+        <tween>Linear</tween>
+        <direction>RIGHT</direction>
+        <seek>0</seek>
+        <length>0</length>
+        <loop>false</loop>
+        <freezeonload>false</freezeonload>
+        <triggeronnext>false</triggeronnext>
+        <autoplay>false</autoplay>
+        <color>Transparent</color>
+        <timecode></timecode>
+    </item>
+</items>
