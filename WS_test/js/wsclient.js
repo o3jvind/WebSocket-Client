@@ -93,13 +93,16 @@ function loadXMLDoc() {
  */
 
 function createRundown(xml) {
-	
+removeElements();
  var x, i, xmlDoc, txt;
   xmlDoc = xml.responseXML;
   txt = "";
   x = xmlDoc.childNodes[0].getElementsByTagName("remotetriggerid");
   
   for (i = 0; i< x.length; i++) {
+	console.log("X i childnodes", x[i].childNodes);
+	if(typeof x[i].childNodes[0] !== "undefined")
+	{
     txt = x[i].childNodes[0].nodeValue;
 	// 1. Create a button
 	var button = document.createElement("button");
@@ -115,7 +118,18 @@ function createRundown(xml) {
 	// 3. Add event handler
     document.getElementById(txt).addEventListener("click", function(){
 	onSendClick(this.value);
-
+	
 });
+}
   }
+ }
+ 
+ //Remove elements with class media
+ function removeElements(){
+	 var paras = document.getElementsByClassName('media');
+
+while(paras[0]) {
+    paras[0].parentNode.removeChild(paras[0]);
+}
+	 
  }
