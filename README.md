@@ -2,7 +2,7 @@
 An experimental WebSocket client for CasparCG
 
 
-Put the files in a web server on your machine. And save a rundown as "WS_Test.xml" in the directory "rundown" from one of the newer official clients from SVT: http://builds.casparcg.com/
+Put the files in a web server on your machine. And save a rundown as "rundown.xml" in the directory "rundown" from one of the newer official clients from SVT: http://builds.casparcg.com/
 
 Make sure you that you have "Allow Remote Triggering" ticked for the rundown elements in the official client.
 
