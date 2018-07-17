@@ -7,3 +7,5 @@ Put the files in a web server on your CasparCG server. And save a rundown as "ru
 Make sure you that you have "Allow Remote Triggering" ticked for the rundown elements in the official client.
 
 Now you can open the rundown and play it out.
+
+![Screeshot](https://github.com/o3jvind/WebSocket-Client/blob/master/WS_test.PNG)
