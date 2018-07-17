@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <allowremotetriggering>false</allowremotetriggering>
+    <item>
+        <type>MOVIE</type>
+        <devicename>Local CasparCG</devicename>
+        <label>12 OG 17 INTRO</label>
+        <name>12 OG 17 INTRO</name>
+        <channel>1</channel>
+        <videolayer>10</videolayer>
+        <delay>0</delay>
+        <duration>0</duration>
+        <allowgpi>false</allowgpi>
+        <allowremotetriggering>true</allowremotetriggering>
+        <remotetriggerid>Intro</remotetriggerid>
+        <storyid></storyid>
+        <transition>CUT</transition>
+        <transitionDuration>0</transitionDuration>
+        <tween>Linear</tween>
+        <direction>RIGHT</direction>
+        <seek>0</seek>
+        <length>0</length>
+        <loop>false</loop>
+        <freezeonload>false</freezeonload>
+        <triggeronnext>false</triggeronnext>
+        <autoplay>false</autoplay>
+        <color>Transparent</color>
+        <timecode></timecode>
+    </item>
+    <item>
+        <type>MOVIE</type>
+        <devicename>Local CasparCG</devicename>
+        <label>18 AROS-ATT.-SYNC</label>
+        <name>18 AROS-ATT.-SYNC</name>
+        <channel>1</channel>
+        <videolayer>10</videolayer>
+        <delay>0</delay>
+        <duration>0</duration>
+        <allowgpi>false</allowgpi>
+        <allowremotetriggering>true</allowremotetriggering>
+        <remotetriggerid>First video</remotetriggerid>
+        <storyid></storyid>
+        <transition>CUT</transition>
+        <transitionDuration>0</transitionDuration>
+        <tween>Linear</tween>
+        <direction>RIGHT</direction>
+        <seek>0</seek>
+        <length>0</length>
+        <loop>false</loop>
+        <freezeonload>false</freezeonload>
+        <triggeronnext>false</triggeronnext>
+        <autoplay>false</autoplay>
+        <color>Transparent</color>
+        <timecode></timecode>
+    </item>
+    <item>
+        <type>MOVIE</type>
+        <devicename>Local CasparCG</devicename>
+        <label>18 SKUESPIL-ATT.-SYNC</label>
+        <name>18 SKUESPIL-ATT.-SYNC</name>
+        <channel>1</channel>
+        <videolayer>10</videolayer>
+        <delay>0</delay>
+        <duration>0</duration>
+        <allowgpi>false</allowgpi>
+        <allowremotetriggering>true</allowremotetriggering>
+        <remotetriggerid>Second video</remotetriggerid>
+        <storyid></storyid>
+        <transition>CUT</transition>
+        <transitionDuration>0</transitionDuration>
+        <tween>Linear</tween>
+        <direction>RIGHT</direction>
+        <seek>0</seek>
+        <length>0</length>
+        <loop>false</loop>
+        <freezeonload>false</freezeonload>
+        <triggeronnext>false</triggeronnext>
+        <autoplay>false</autoplay>
+        <color>Transparent</color>
+        <timecode></timecode>
+    </item>
+    <item>
+        <type>MOVIE</type>
+        <devicename>Local CasparCG</devicename>
+        <label>18 VEJR-ATT.VTR</label>
+        <name>18 VEJR-ATT.VTR</name>
+        <channel>1</channel>
+        <videolayer>10</videolayer>
+        <delay>0</delay>
+        <duration>0</duration>
+        <allowgpi>false</allowgpi>
+        <allowremotetriggering>true</allowremotetriggering>
+        <remotetriggerid>Third video</remotetriggerid>
+        <storyid></storyid>
+        <transition>CUT</transition>
+        <transitionDuration>0</transitionDuration>
+        <tween>Linear</tween>
+        <direction>RIGHT</direction>
+        <seek>0</seek>
+        <length>0</length>
+        <loop>false</loop>
+        <freezeonload>false</freezeonload>
+        <triggeronnext>false</triggeronnext>
+        <autoplay>false</autoplay>
+        <color>Transparent</color>
+        <timecode></timecode>
+    </item>
+    <item>
+        <type>MOVIE</type>
+        <devicename>Local CasparCG</devicename>
+        <label>19 GRACELAND SD</label>
+        <name>19 GRACELAND SD</name>
+        <channel>1</channel>
+        <videolayer>10</videolayer>
+        <delay>0</delay>
+        <duration>0</duration>
+        <allowgpi>false</allowgpi>
+        <allowremotetriggering>true</allowremotetriggering>
+        <remotetriggerid>Forth video</remotetriggerid>
+        <storyid></storyid>
+        <transition>CUT</transition>
+        <transitionDuration>0</transitionDuration>
+        <tween>Linear</tween>
+        <direction>RIGHT</direction>
+        <seek>0</seek>
+        <length>0</length>
+        <loop>false</loop>
+        <freezeonload>false</freezeonload>
+        <triggeronnext>false</triggeronnext>
+        <autoplay>false</autoplay>
+        <color>Transparent</color>
+        <timecode></timecode>
+    </item>
+    <item>
+        <type>TEMPLATE</type>
+        <devicename>Local CasparCG</devicename>
+        <label>HTML/HTML-Bundt/HTML-Bundt/BUNDT</label>
+        <name>HTML/HTML-Bundt/HTML-Bundt/BUNDT</name>
+        <channel>1</channel>
+        <videolayer>20</videolayer>
+        <delay>0</delay>
+        <duration>0</duration>
+        <allowgpi>false</allowgpi>
+        <allowremotetriggering>true</allowremotetriggering>
+        <remotetriggerid>Lover third (Santa Claus)</remotetriggerid>
+        <storyid></storyid>
+        <flashlayer>1</flashlayer>
+        <invoke></invoke>
+        <usestoreddata>false</usestoreddata>
+        <useuppercasedata>false</useuppercasedata>
+        <triggeronnext>false</triggeronnext>
+        <sendasjson>false</sendasjson>
+        <templatedata>
+            <componentdata>
+                <id>f0</id>
+                <value>Julemanden</value>
+            </componentdata>
+            <componentdata>
+                <id>f1</id>
+                <value>Pakkeproducent, Grønland</value>
+            </componentdata>
+        </templatedata>
+        <color>Transparent</color>
+    </item>
+</items>

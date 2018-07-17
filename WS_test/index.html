@@ -1,41 +1,61 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <script src="js/wsclient.js"></script>
-        <style>
-            table    { border: 2px solid black; }
-            input    { width: 300px; }
-            select   { width: 300px; }
-           
-            #btnConnect    { width: 100px; }
-            #btnDisconnect { width: 100px; }
-           
-        </style>
-    </head>
-    <body>
-        <h1>WebSocket Client</h1>
-        <!-- WebSocket Connection Parameters Table -->
-        <table>
-            <tr>
-                <td>WS Hostname</td>
-                <td><input type="text" id="hostname" value="127.0.0.1"></td>
-            </tr>
-            <tr>
-                <td>WS Port</td>
-                <td><input type="text" id="port" value="4250"></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <input id="btnConnect"    type="button" value="Connect"    onclick="onConnectClick()">&nbsp;&nbsp;
-                    <input id="btnDisconnect" type="button" value="Disconnect" onclick="onDisconnectClick()" disabled="disabled">
-                </td>
-            </tr>
-        </table><br/>
-       	
-		<button type="button" onclick="loadXMLDoc()">Get Rundown</button>
-		<br/>
-		<br/>
-    </body>
+  <head>
+     <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m12 l12">
+        <h5 id="header" class="left-align">CasparCG WebSocket Client</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m12 l12">
+        <h6 id="server_details" class="left-align" style="margin-top: -20px;">Server Details:</h6>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s6" style="margin-top: -6px;">
+      <input value="127.0.0.1" id="hostname" type="text" class="validate" /> 
+      <label for="ip_address">IP Address</label></div>
+      <div class="input-field col s6" style="margin-top: -6px;">
+      <input value="4250" id="port" type="number" class="validate" /> 
+      <label for="port_number">Port Number</label></div>
+      <div class="col s12">
+      <button id="btnConnect" type="button" value="Connect" class="btn-small waves-effect hoverable waves-light6"
+      onclick="onConnectClick()">CONNECT</button> 
+      <button id="btnDisconnect" type="button" value="Disconnect" disabled="disabled"
+      class="btn-small hoverable waves-effect waves-light" onclick="onDisconnectClick()">DISCONNECT</button></div>
+    </div>
+    <div class="row">
+      <div class="col s12" style="margin-top: 10px;">
+        <hr />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m12 l12">
+        <h6 id="rundown" class="left-align" style="margin-top: -20px;">Rundown:</h6>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12" style="margin-top: -10px;">
+        <button class="red hoverable waves-effect waves-light btn-large" onclick="loadXMLDoc()">Get Rundown</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12" style="margin-top: -10px;">
+        <div id="media_elements"></div>
+      </div>
+    </div>
+   
+  </div>
+  <script type="text/javascript" src="js/materialize.min.js"></script> 
+  <script type="text/javascript" src="js/main.js"></script></body>
 </html>
